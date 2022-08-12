@@ -2,7 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCheck,faTimes } from '@fortawesome/free-solid-svg-icons'
 function Card({item}){
     return (
-        <div className="col-lg-4">
+        <div 
+        className="col-lg-4">
         <div className="card mb-5 mb-lg-0">
           <div className="card-body">
             <h5 className="card-title text-muted text-uppercase text-center">{item.pack}</h5>
